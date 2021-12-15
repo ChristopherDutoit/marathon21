@@ -1,4 +1,4 @@
-@font-face { 	font-family: "Louis George Cafe"; 	src: url('../font/Louis George Cafe.ttf'); }
+@font-face { 	font-family: "Louis George Cafe"; 	src: url("/fonts/Louis George Cafe.ttf?17cd25f83710eb436d1e955e91559f73"); }
 
 body{
     margin : 0;
@@ -39,6 +39,14 @@ a{
    
  }
 
+ .login-input::-moz-placeholder{
+     color : white;
+ }
+
+ .login-input:-ms-input-placeholder{
+     color : white;
+ }
+
  .login-input::placeholder{
      color : white;
  }
@@ -56,8 +64,4 @@ a{
     background-color: #4DB8E6;
     border: none;
     height: 2rem;
- }
-
- .card-header{
-     font-size : 3rem;
  }
