@@ -22,7 +22,7 @@ a{
      
  }
 
- .login{
+ .login, .register{
         margin: 0 auto;
         background-color: #36393F;
         width: 800px;
@@ -31,23 +31,28 @@ a{
     
  }
 
- .login-input{
+ .login-input, .register-input{
  background-color: #36393F;
- border: solid #4DB8E6 2px;
-    height: 2rem;
-    width: 20rem;
+height: 2rem;
+width: 20rem;
+color: white;
    
  }
 
- .login-input::-moz-placeholder{
-     color : white;
+ .login-input{
+    border: solid #4DB8E6 2px;
  }
 
- .login-input:-ms-input-placeholder{
+ .register-input{
+    border: solid #FB4369 2px;
+ }
+ .login-input::-moz-placeholder, .register-input::-moz-placeholder{
      color : white;
  }
-
- .login-input::placeholder{
+ .login-input:-ms-input-placeholder, .register-input:-ms-input-placeholder{
+     color : white;
+ }
+ .login-input::placeholder, .register-input::placeholder{
      color : white;
  }
 
@@ -55,13 +60,25 @@ a{
      text-align: center;
  }
 
- .login-row{
+ .login-row, .register-row{
     margin: 3%;
  }
 
- .login-btn{
+ .login-btn, .register-btn{
     width: 10rem;
-    background-color: #4DB8E6;
+
     border: none;
     height: 2rem;
+ }
+
+ .register-btn{
+    background-color: #FB4369;
+ }
+
+ .login-btn{
+    background-color: #4DB8E6;
+ }
+ .card-header{
+     font-size : 3rem;
+     padding: 5% 0;
  }
